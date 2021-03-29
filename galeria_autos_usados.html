@@ -6,68 +6,101 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link type="text/css" rel="stylesheet" href="css/la_fama.css">
 </head>
 
 <body>
-    <h1>Automotora La Fama</h1>
-    <p>La primera de las regiones <b>del sur del pais</b> </p>
 
-    <p> 
-        <a href="index.html">Home</a> | 
-        <a href="galeria.html">Galeria</a>  
-     </p>
+    <!-- contenedor de toda la pagina -->
+    <div class="contenedor">
+        <!-- cabecera de la pagina -->
+        <div class="header">
+            <header>
+                <h1>Automotora La Fama</h1>
+                <p>La primera de las regiones <b>del sur del pais</b> </p>
+            </header>
+        </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae quae ea
-        fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed! </p>
+        <!-- barra de navegacion -->
+        <div class="navegacion">
+            <nav>
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                </ol>
+            </nav>
+        </div>
 
-     <h2>Lotes de Autos Usados</h2>
-     
-     <table>
-        <tr>
-            <td> <img src="img/usado_1.jpg" alt="" width="250" height="250"> </td>
-            <td>
-                Modelo: Auto Viejo <br>
-                Año: 1975 <br>
-                Precio: $900.000 <br>
-                Descripcion: Es un vehiculo para una persona sola <br>
+        <!-- contenido de la pagina web -->
+        <div class="contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae
+                quae ea
+                fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed! </p>
 
-                <a href="img/usado_1.jpg"> pinche aqui </a>
-            </td>
-        </tr>
-        <tr>
-            <td> <img src="img/usado_2.jpg" alt="" width="250" height="250"> </td>
-            <td>
-                Modelo: Auto de Homero <br>
-                Año: 1990 <br>
-                Precio: $1.200.000 <br>
-                Descripcion: Puede ser el vehiculo de tus sueños <br>
+            <h2 class="subtitulo">Lotes de Autos Usados</h2>
 
-                <a href="img/usado_2.jpg"> pinche aqui </a>
-            </td>
-        </tr>
-        <tr>
-            <td> <img src="img/usado_3.jpg" alt="" width="250" height="250"> </td>
-            <td>
-                Modelo: Familiar Antiguo <br>
-                Año: 1991 <br>
-                Precio: $1.300.000 <br>
-                Descripcion: Vehiculo a toda prueba  <br>
+            <table>
+                <tr>
+                    <td> <img class="imagenes" src="img/usado_1.jpg" alt="" width="250" height="250"> </td>
+                    <td>
+                        <p class="pa">
+                            Modelo: Auto Viejo <br>
+                            Año: 1975 <br>
+                            Precio: $900.000 <br>
+                            Descripcion: Es un vehiculo para una persona sola <br>
+                        </p>
+                        <a class="boton" href="img/usado_1.jpg"> pinche aqui </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <img class="imagenes" src="img/usado_2.jpg" alt="" width="250" height="250"> </td>
+                    <td>
+                        <p class="pa">
+                            Modelo: Auto de Homero <br>
+                            Año: 1990 <br>
+                            Precio: $1.200.000 <br>
+                            Descripcion: Puede ser el vehiculo de tus sueños <br>
+                        </p>
+                        <a class="boton" href="img/usado_2.jpg"> pinche aqui </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <img class="imagenes" src="img/usado_3.jpg" alt="" width="250" height="250"> </td>
+                    <td>
+                        <p class="pa">
+                            Modelo: Familiar Antiguo <br>
+                            Año: 1991 <br>
+                            Precio: $1.300.000 <br>
+                            Descripcion: Vehiculo a toda prueba <br>
+                        </p>
+                        <a class="boton" href="img/usado_3.jpg"> pinche aqui </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <img class="imagenes" src="img/usado_4.jpg" alt="" width="250" height="250"> </td>
+                    <td>
+                        <p class="pa">
+                            Modelo: Auto de Soltero <br>
+                            Año: 2015 <br>
+                            Precio: $2.500.000 <br>
+                            Descripcion: Es para salir a fiestas cuando no exista cuarentena <br>
+                        </p>
+                        <a class="boton" href="img/usado_4.jpg"> pinche aqui </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-                <a href="img/usado_3.jpg"> pinche aqui </a>
-            </td>
-        </tr>
-        <tr>
-            <td> <img src="img/usado_4.jpg" alt="" width="250" height="250"> </td>
-            <td>
-                Modelo: Auto de Soltero <br>
-                Año: 2015 <br>
-                Precio: $2.500.000 <br>
-                Descripcion: Es para salir a fiestas cuando no exista cuarentena <br>
+        <!-- pie de pagina -->
+        <div class="footer">
+            <p>Desarrollado por</p>
+            <p>Seccion 002 Software</p>
+            <p>Contactenos</p>
+        </div>
+    </div>
 
-                <a href="img/usado_4.jpg"> pinche aqui </a>
-            </td>
-        </tr>
-     </table>
+
+
 </body>
 
 </html>

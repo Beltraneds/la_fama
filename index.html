@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Web</title>
+    <link type="text/css" rel="stylesheet" href="css/la_fama.css">
 </head>
+
 <body>
-   <!-- contenido del documento --> 
-   <center> <h1>Automotora La Fama</h1> </center> 
-   <p>La primera de las regiones <b>del sur del pais</b> </p> 
-    
-    <p> 
-       <a href="index.html">Home</a> | 
-       <a href="galeria.html">Galeria</a> | 
-       <a href="contacto.html">Contacto</a> | 
-       <a href="ubicacion.html">Ubicacion</a> 
-    </p>
+    <!-- contenedor de toda la pagina -->
+    <div class="contenedor">
+        <!-- cabecera de la pagina -->
+        <div class="header">
+            <header>
+                <h1>Automotora La Fama</h1>
+                <p>La primera de las regiones <b>del sur del pais</b> </p>
+            </header>
+        </div>
 
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae quae ea fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed! </p>
-   
-   <p>sucursales</p>
+        <!-- barra de navegacion -->
+        <div class="navegacion">
+            <nav>
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="ubicacion.html">Ubicacion</a></li>
+                </ol>
+            </nav>
+        </div>
 
-   <ol>
-       <li>Ñuñoa</li>
-       <li>Puente Alto</li>
-       <li>La Reina</li>
-   </ol>
+        <!-- contenido de la pagina web -->
+        <div class="contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae
+                quae
+                ea fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed!
+            </p>
+            <h3>Mis sucursales</h3>
 
-   <img src="img/automotora.jpg" alt="" width="50%">
-  
+            <ol>
+                <li>Ñuñoa</li>
+                <li>Puente Alto</li>
+                <li>La Reina</li>
+            </ol>
+            <center>
+                <img class="imagenes" src="img/automotora.jpg" alt="" width="30%">
+            </center>
+        </div>
+
+        <!-- pie de pagina -->
+        <div class="footer">
+            <p>Desarrollado por</p>
+            <p>Seccion 002 Software</p>
+            <p>Contactenos</p>
+        </div>
+    </div>
 </body>
+
 </html>

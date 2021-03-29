@@ -6,42 +6,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link type="text/css" rel="stylesheet" href="css/la_fama.css">
 </head>
 
 <body>
-    <h1>Automotora La Fama</h1>
-    <p>La primera de las regiones <b>del sur del pais</b> </p>
 
-    <p> 
-        <a href="index.html">Home</a> | 
-        <a href="galeria.html">Galeria</a> | 
-        <a href="contacto.html">Contacto</a> | 
-        <a href="ubicacion.html">Ubicacion</a> 
-     </p>
+    <!-- contenedor de toda la pagina -->
+    <div class="contenedor">
+        <!-- cabecera de la pagina -->
+        <div class="header">
+            <header>
+                <h1>Automotora La Fama</h1>
+                <p>La primera de las regiones <b>del sur del pais</b> </p>
+            </header>
+        </div>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae quae ea
-        fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed! </p>
+        <!-- barra de navegacion -->
+        <div class="navegacion">
+            <nav>
+                <ol>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="ubicacion.html">Ubicacion</a></li>
+                </ol>
+            </nav>
+        </div>
 
-     <h2>Galeria de Nuestros Modelos</h2>
-     
-     <table border="1">
-         <tr>
-             <td> <img src="img/auto_nuevo.jpg" alt="" width="250" height="250"> </td>
-             <td>
-                 <b>Autos Nuevos</b>
-                 <p>Tenemos el stock mas amplio de marcas
-                 de vehiculos nuevos en el mercado</p>
-             </td>
-         </tr>
-         <tr>
-             <td> <img src="img/auto_usado.jpg" alt="" width="250" height="250"> </td>
-             <td>
-                 <b>Autos Usados</b>
-                 <p>Nuestro lote de autos usados esta con descuento de 10%</p>
-                 <a href="galeria_autos_usados.html">Pinche Aqui</a>
-             </td>
-         </tr>
-     </table>
+        <!-- contenido de la pagina web -->
+        <div class="contenido">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum accusamus earum nihil modi, ipsum vitae
+                quae ea
+                fugiat labore saepe sequi aut facere distinctio, sapiente deserunt tenetur fugit accusantium. Sed! </p>
+
+            <h2 class="subtitulo">Galeria de Nuestros Modelos</h2>
+
+            <table>
+                <tr>
+                    <td>
+                        <img class="imagenes" src="img/auto_nuevo.jpg" alt="" width="250" height="250">
+                    </td>
+                    <td>
+                        <b class="subtitulo">Autos Nuevos</b>
+                        <p>Tenemos el stock mas amplio de marcas
+                            de vehiculos nuevos en el mercado</p>
+                    </td>
+                    <td>
+                        <a href="galeria_autos_usados.html">
+                           <img class="imagenes" src="img/auto_usado.jpg" alt="" width="250" height="250">
+                        </a>
+                    </td>
+                    <td>
+                        <b class="subtitulo">Autos Usados</b>
+                        <p>Nuestro lote de autos usados esta con descuento de 10%</p>
+                        <a class="boton" href="galeria_autos_usados.html">Pinche Aqui</a>
+                    </td>
+                </tr>
+            </table>
+
+
+        </div>
+
+        <!-- pie de pagina -->
+        <div class="footer">
+            <p>Desarrollado por</p>
+            <p>Seccion 002 Software</p>
+            <p>Contactenos</p>
+        </div>
+    </div>
+
+
+
+
+
+
 </body>
 
 </html>

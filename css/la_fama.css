@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 1px;
+}
+
+.contenedor {
+    padding: 10px;
+}
+
+/* cabecera */
+.header {
+    background-color: teal;
+    padding: 10px;
+    text-align: center; 
+    border-radius: 15px 15px 0px 0px;  
+}
+.header h1{
+    color: white;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header p{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+/* contenido de la pagina web*/
+.contenido {
+    border: solid 1px black;
+    padding: 15px;
+}
+.contenido p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.contenido h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+}
+.contenido ol{
+    margin: 15px;
+}
+
+/* barra de navegacion */
+.navegacion {
+    background-color: black;
+    height: 45px;
+}
+.navegacion li{
+    display: block;
+    float: left;
+    padding: 8px;
+}
+.navegacion li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.navegacion li:hover{
+    background-color: violet;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    border-radius: 0px 0px 15px 15px;
+}
+
+
+/* estilos variados */
+
+.imagenes {
+    border-radius: 15px;
+}
+.imagenes:hover{
+    filter: brightness(0.5);
+    transition: 0.5s;
+}
+.subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    margin-bottom: 15px;
+}
+.boton{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.boton:hover{
+    color: gray;
+    transition: 0.5s;
+}
+.pa{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
